@@ -1,0 +1,35 @@
+[
+  {
+    "case_name": "注册成功",
+    "request_body": {
+      "username": "13990773678",
+      "verify_code":"8888",
+      "password": "123456",
+      "password2": "123456"
+    },
+    "http_code": 200,
+    "message": "注册成功"
+  },
+  {
+    "case_name": "两次输入密码不一致",
+    "request_body": {
+      "username": "18667141277",
+      "verify_code":"8888",
+      "password": "12356",
+      "password2": "123456"
+    },
+    "http_code": 200,
+    "message": "两次输入密码不一致"
+  },
+  {
+    "case_name": "错误手机号",
+    "request_body": {
+      "username": "1380006702",
+      "verify_code":"8888",
+      "password": "123456",
+      "password2": "123456"
+    },
+    "http_code": 200,
+    "message": "请用手机号或邮箱注册"
+  }
+]
